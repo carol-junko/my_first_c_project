@@ -2,9 +2,9 @@
 
 #include <unistd.h>
 
-void print_hello(void)
+void	print_hello(void)
 {
-	write(1, "Hello, Carolina\n", 17);
+	write(1, "Hello, Carolina!\n", 17);
 }
 
 int	main(void)
